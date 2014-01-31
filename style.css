@@ -4,10 +4,10 @@ Theme URI: http://wordpress.org/themes/twentyfourteen
 Author: Team 3499
 Author URI: http://wordpress.org/
 Description: Built from Twenty Fourteen by the wordpress team. Created for Rivers Edge Robotics
-Version: 1.0
+Version: 0.1.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Tags: black, green, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Tags: black, blue, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
 Text Domain: team3499-2014
 
 This theme, like WordPress, is licensed under the GPL.
@@ -97,6 +97,7 @@ html {
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
+    min-width: 450px;
 }
 
 body,
@@ -506,7 +507,7 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	background-color: #18BCBC;
+	background-color: #116DCC;
 	border: 0;
 	border-radius: 2px;
 	color: #fff;
@@ -803,8 +804,8 @@ span + .edit-link:before,
  */
 
 .site {
-	background-color: #2E4D6C;
-	max-width: 1260px;
+	/*background-color: #2E4D6C;*/
+	/*max-width: 1260px;*/
 	position: relative;
 }
 
@@ -832,7 +833,7 @@ span + .edit-link:before,
 .site-header {
     background-color:#4C4C4C;
     background: linear-gradient(to bottom, #4c4c4c 0%,#3f3f3f 100%);
-	max-width: 1260px;
+	/*max-width: 1260px;*/
 	position: relative;
 	width: 100%;
 	z-index: 4;
@@ -1025,7 +1026,6 @@ span + .edit-link:before,
 .site-content .entry-meta,
 .page-content {
 	margin: 0 auto;
-	/*max-width: 474px;*/
 	max-width: 800px;
     
 
@@ -1077,6 +1077,7 @@ a.post-thumbnail:hover {
 	margin-bottom: 12px;
 	margin: 0 0 12px 0;
 	/*text-transform: uppercase;*/
+    font-weight:bold;
 }
 
 .entry-title a {
