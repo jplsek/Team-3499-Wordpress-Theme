@@ -1142,7 +1142,7 @@ a.post-thumbnail:hover {
 }
 
 .cat-links a:hover {
-	color: #18BCBC;
+	color: #116DCC;
 }
 
 .byline {
@@ -1679,6 +1679,8 @@ a.post-thumbnail:hover {
 	font-weight: 900;
 	line-height: 1.5;
 	margin: 0;
+    
+    color:#ccc;
 }
 
 .taxonomy-description,
@@ -3189,7 +3191,7 @@ a.post-thumbnail:hover {
 
 	.archive-header,
 	.page-header {
-		margin: 0 auto 60px;
+		margin: 0 auto 30px;
 		padding: 0 10px;
 	}
 
