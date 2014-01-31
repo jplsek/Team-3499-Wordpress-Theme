@@ -4,7 +4,7 @@ Theme URI: http://wordpress.org/themes/twentyfourteen
 Author: Team 3499
 Author URI: http://wordpress.org/
 Description: Built from Twenty Fourteen by the wordpress team. Created for Rivers Edge Robotics
-Version: 0.1.4
+Version: 0.1.6
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
@@ -3503,9 +3503,9 @@ a.post-thumbnail:hover {
 
 @media screen and (min-width: 810px) {
 	.attachment .entry-attachment .attachment {
-		margin-right: -168px;
+		/*margin-right: -168px;
 		margin-left: -168px;
-		max-width: 810px;
+		max-width: 810px;*/
 	}
 
 	.attachment .site-content .attachment img {
