@@ -942,7 +942,7 @@ span + .edit-link:before,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #18BCBC;
+	color: #fff;
 	font-weight: 900;
 }
 
@@ -3418,7 +3418,7 @@ a.post-thumbnail:hover {
 	}
 
 	.primary-navigation ul ul {
-		background-color: #18BCBC;
+		background-color: #116DCC;
 		float: left;
 		margin: 0;
 		position: absolute;
@@ -3447,7 +3447,7 @@ a.post-thumbnail:hover {
 
 	.primary-navigation li:hover > a,
 	.primary-navigation li.focus > a {
-		background-color: #18BCBC;
+		background-color: #116DCC;
 		color: #fff;
 	}
 
