@@ -535,7 +535,7 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: #18BCBC;
 }
 
 .search-field {
@@ -831,6 +831,7 @@ span + .edit-link:before,
 
 .site-header {
     background-color:#4C4C4C;
+    background: linear-gradient(to bottom, #4c4c4c 0%,#3f3f3f 100%);
 	max-width: 1260px;
 	position: relative;
 	width: 100%;
@@ -941,7 +942,7 @@ span + .edit-link:before,
 .site-navigation .current_page_ancestor > a,
 .site-navigation .current-menu-item > a,
 .site-navigation .current-menu-ancestor > a {
-	color: #55d737;
+	color: #18BCBC;
 	font-weight: 900;
 }
 
@@ -1075,7 +1076,7 @@ a.post-thumbnail:hover {
 	line-height: 1.0909090909;
 	margin-bottom: 12px;
 	margin: 0 0 12px 0;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .entry-title a {
@@ -1097,7 +1098,7 @@ a.post-thumbnail:hover {
     -webkit-border-image: url(images/border-1.png) 25 stretch; 
     -o-border-image: url(images/border-1.png) 25 stretch; 
     border-image: url(images/border-1.png) fill 25 stretch;    
-     margin-bottom:10px;
+    margin-bottom:10px;
 }
 
 .site-content .has-post-thumbnail .entry-header {
@@ -1240,6 +1241,7 @@ a.post-thumbnail:hover {
     -webkit-border-image: url(images/border-0.png) 25 stretch; 
     -o-border-image: url(images/border-0.png) 25 stretch; 
     border-image: url(images/border-0.png) fill 25 stretch;
+    margin:0 10px;
 }
 
 .page .entry-content {
@@ -1557,8 +1559,8 @@ a.post-thumbnail:hover {
 
 .post-navigation,
 .image-navigation {
-	margin: 24px auto 48px;
-	max-width: 474px;
+	margin: 24px 10px 48px;
+	max-width: 800px;
 	padding: 0 10px;
     
     border-style: solid;
@@ -1803,8 +1805,8 @@ a.post-thumbnail:hover {
  */
 
 .comments-area {
-	margin: 48px auto;
-	max-width: 474px;
+	margin: 48px 10px;
+	max-width: 800px;
 	padding: 0 10px;
     
     
@@ -2280,7 +2282,7 @@ a.post-thumbnail:hover {
 .widget input[type="button"]:active,
 .widget input[type="reset"]:active,
 .widget input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: #18BCBC;
 }
 
 .widget .wp-caption {
@@ -2582,7 +2584,7 @@ a.post-thumbnail:hover {
 .content-sidebar .widget input[type="button"]:active,
 .content-sidebar .widget input[type="reset"]:active,
 .content-sidebar .widget input[type="submit"]:active {
-	background-color: #55d737;
+	background-color: #18BCBC;
 }
 
 .content-sidebar .widget .wp-caption {
@@ -2727,6 +2729,7 @@ a.post-thumbnail:hover {
 
 .site-footer {
 	/*background-color: #000;*/
+    background: linear-gradient(to bottom, #4c4c4c 0%,#3f3f3f 100%);
 	font-size: 12px;
 	position: relative;
 	z-index: 3;
