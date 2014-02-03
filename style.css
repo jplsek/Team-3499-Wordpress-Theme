@@ -4,7 +4,7 @@ Theme URI: https://github.com/jplsek/Team-3499-Wordpress-Theme
 Author: Team 3499
 Author URI: http://team3499.org/
 Description: Created by and for Rivers Edge Robotics. Built from Twenty Fourteen by the wordpress team.
-Version: 0.1.9
+Version: 0.1.10
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
@@ -1013,6 +1013,7 @@ span + .edit-link:before,
 
 .content-area {
 	padding-top: 48px;
+	margin-bottom: 48px;
 }
 
 .hentry {
@@ -1027,12 +1028,6 @@ span + .edit-link:before,
 .page-content {
 	margin: 0 auto;
 }
-
-
-.page-content {
-	margin-bottom: 48px;
-}
-
 
 /**
  * 6.1 Post Thumbnail

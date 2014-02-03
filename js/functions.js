@@ -55,18 +55,56 @@
 	} );
 
 	$( function() {
-		// Search toggle.
-		$( '.search-toggle' ).on( 'click.twentyfourteen', function( event ) {
-			var that    = $( this ),
-				wrapper = $( '.search-box-wrapper' );
+        
+		// Search toggle. - Still slightly buggy, but works most 90% of the time.
+    
+        function openDiv(div){
+            $(div).stop().slideDown(200);
+            $('#search-container .search-field').focus();
+        }
+        function closeDiv(div){
+            $('#search-toggle').removeClass('active');
+            $(div).stop().slideUp(200);
+        }
+        
+        $(document).ready(function(){
+            
+            var sopen = true;
+            
+            $('#search-container').hide(); //Fixes "double slide" when combined with display:none.
+            
+            $('#search-container .search-field').blur(function(){
+                ///console.log("blur close div   ----- Setting sopen to false at blur -----");
+                closeDiv('#search-container');
+                sopen = false;
+                setTimeout(function(){
+                    ///console.log("                                         true");
+                    sopen = true;
+                }, 100);
+            });
+            
+            $('#search-toggle').mouseup(function(){
+                ///console.log("click button");
+                if($('#search-toggle').hasClass('active') && sopen == true){
+                    closeDiv('#search-container');
+                    ///console.log("blur close div 1");
+                } else if(sopen == false) {
+                    ///console.log("SOPEN == FALSE");
+                    sopen = true;
+                } else if(!$('#search-toggle').hasClass('active')){
+                    $(this).addClass('active');
+                    ///console.log("blur open div 1");
+                } else if(sopen == true) {
+                    ///console.log("SOPEN == True");
+                    sopen = true;
+                }
+                
+                if($('#search-toggle').hasClass('active')){
+                    openDiv('#search-container');
+                }
+            });
 
-			that.toggleClass( 'active' );
-			wrapper.toggleClass( 'hide' );
-
-			if ( that.is( '.active' ) || $( '.search-toggle .screen-reader-text' )[0] === event.target ) {
-				wrapper.find( '.search-field' ).focus();
-			}
-		} );
+        });
 
 		/*
 		 * Fixed header for large screen.
@@ -125,4 +163,10 @@
 			} );
 		}
 	} );
+
+    // Menubar Effects - Not ready
+    //$('.page_item').hover(function(){
+    //    $('.children').stop().hide().slideDown(200);
+    //});
+    
 } )( jQuery );
