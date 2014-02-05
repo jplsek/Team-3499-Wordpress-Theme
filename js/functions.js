@@ -165,8 +165,8 @@
 	} );
 
     // Menubar Effects - Not ready
-    //$('.page_item').hover(function(){
-    //    $('.children').stop().hide().slideDown(200);
-    //});
+    /*$('[class^="page_item page-item-"]').hover(function(){
+        $('.children').stop().hide().slideDown(200);
+    });*/
     
 } )( jQuery );
