@@ -1,10 +1,11 @@
+
 /*
 Theme Name: Team3499 - 2014
 Theme URI: https://github.com/jplsek/Team-3499-Wordpress-Theme
 Author: Team 3499
 Author URI: http://team3499.org/
 Description: Created by and for Rivers Edge Robotics. Built from Twenty Fourteen by the wordpress team.
-Version: 0.1.12
+Version: 0.1.13
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, white, light, dark, two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
@@ -1225,7 +1226,6 @@ a.post-thumbnail:hover {
 }
 
 .site-content .entry-content,
-.site-content .entry-summary,
 .page-content {
 	/*background-color: #fff;*/
 	padding: 12px 10px 0;
@@ -3241,18 +3241,17 @@ a.post-thumbnail:hover {
 		margin-top: 0;
 	}
 
-	.archive-header,
+	/*.archive-header,
 	.comments-area,
 	.image-navigation,
 	.page-header,
 	.page-content,
 	.post-navigation,
 	.site-content .entry-content,
-	.site-content .entry-summary,
 	.site-content footer.entry-meta {
-		padding-right: 30px;
-		padding-left: 30px;
-	}
+		padding-right: 15px;
+		padding-left: 15px;
+	}*/
 
 	.singular .site-content .hentry.has-post-thumbnail {
 		margin-top: 0;
